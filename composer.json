@@ -1,0 +1,26 @@
+{
+    "name": "alto/array-functions",
+    "description": "Array functions for PHP",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=8.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Alto\\Functions\\ArrayFunctions\\": "src/"
+        },
+        "files": [
+            "functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Alto\\Functions\\ArrayFunctions\\Tests\\": "tests/"
+        }
+    }
+}
